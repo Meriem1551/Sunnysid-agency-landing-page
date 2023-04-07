@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+:root{
+    /*fonts*/
+--font-family-1: 'Barlow';
+--font-family-2:'Fraunces';
+--font-size:18px;
+--font-weight-semibold:600;
+--font-weight-bold:700;
+--font-weight-black:900;
+/*colors*/
+--Soft-red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--Dark-desaturated-cyan: hsl(167, 40%, 24%);
+--Dark-blue : hsl(198, 62%, 26%);
+--Dark-moderate-cyan : hsl(168, 34%, 41%);
+--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main img{
+    width: 100%;
+}
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 30px;
+    left: 800px;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-semibold);
+}
+button{
+    background-color: transparent;
+    font-size: 13px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: var(--White);
+}
+button:hover{
+    border-radius: 30px;
+    background-color: var(--White);
+    text-transform: uppercase;
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-bold);
+    color: var(--Very-dark-desaturated-blue);
+}
+#contact{
+    margin-left: 30px;
+}
+#project{
+    margin-left: 30px;
+}
+#service{
+    margin-left: 30px;
+}
+h1{
+    color: var(--White);
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-black);
+    letter-spacing: 7px;
+    font-size: 55px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+#arrow{
+    width: 50px;
+    position: absolute;
+    top: 320px;
+    left: 630px;
+    
+}
+#flex-1{
+    display: flex;
+    flex-direction: row;
+margin-top: -4px;
+margin-right: -45px;
+}
+#flex-2{
+    display: flex;
+    flex-direction: row;
+margin-top: -4px;
+margin-left: -45px;
+}
+.description{
+    margin-left: 100px;
+    margin-top: 160px;
+}
+.description h2{
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-black);
+    color: var(--Very-dark-desaturated-blue);
+    width: 400px;
+    font-size: 35px;
+}
+.description p{
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-semibold);
+    color: var(--Very-dark-desaturated-blue);
+    margin-top: 30px;
+    line-height: 40px;
+    width: 400px;
+}
+#transform{
+    margin-left: 173px;
+}
+h4{
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-black);
+    color: var(--Very-dark-desaturated-blue);
+    margin-top: 50px;
+}
+#yellow{
+    border-bottom: 4px solid rgb(247, 247, 152);
+    width: 118px;
+    height: 15px; 
+}
+#red{
+    border-bottom: 4px solid hsl(8, 76%, 77%);
+    width: 118px;
+    height: 15px; 
+}
+#flex-3{
+    display: flex;
+    flex-direction: row;
+margin-top: -4px;
+margin-left: -45px;
+}
+.imge h3{
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-black);
+    margin-top: -210px;
+    font-size: 1.5rem;
+    margin-left: 275px;
+}
+.imge p{
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-semibold);
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-left: 200px;
+}
+#green{
+    color: var(--Dark-desaturated-cyan);
+}
+#blue{
+    color: var(--Dark-blue);
+}
+h5{
+    font-family: var(--font-family-2);
+    font-weight: var(--font-weight-bold);
+    margin-top: 230px;
+    color: var(--Dark-grayish-blue);
+    font-size:1rem ;
+    letter-spacing: 5px;
+    margin-left: 540px;
+}
+#profiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+#profiles p{
+    font-family: var(--font-family-1);
+    color: var(--Very-dark-grayish-blue);
+    width: 310px;
+    text-align: center;
+}
+#profiles img{
+    border-radius: 100%;
+}
+#profiles h4{
+    font-family: var(--font-family-2);
+    color: var(--Very-dark-desaturated-blue);
+    margin-top: 80px;
+}
+#profiles h6{
+    font-family: var(--font-family-1);
+    color: var(--Grayish-blue);
+    font-size: 0.7rem;
+}
+#emily{
+    flex: 1fr;
+    padding-left: 120px;
+}
+#emily>p{
+line-height: 30px;
+margin-top: 80px;
+}
+#emily>img{
+    margin-left: 100px;
+}
+#emily>h4{
+    margin-left: 120px;
+}
+#emily>h6{
+    margin-left: 110px;
+    margin-top: 15px;
+    letter-spacing: 0px;
+}
+#thomas{
+    flex: 1fr;
+    margin-left: -20px;
+}
+#thomas>img{
+    margin-left: 0px;
+}
+#thomas>p{
+    margin-top:80px ;
+    margin-left: -90px;
+line-height: 30px;
+}
+#thomas>h4{
+    margin-left: 40px;
+}
+#thomas>h6{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+#jennie{
+    margin-left: 20px;
+}
+#jennie>img{
+margin-left: 10px;
+}
+#jennie>p{
+    margin-top: 80px;
+    margin-left: -60px;
+    line-height: 30px;
+}
+#jennie>h4{
+    margin-left: 60px;
+}
+#jennie>h6{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#images{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+}
+footer{
+    background-color: hsl(168, 45%, 53%);
+    height: 400px;
+    margin-top: -4px;
+}
+#LOGO{
+    padding-top: 70px;
+    padding-left: 580px;
+    filter: invert(67%) sepia(39%) saturate(517%) hue-rotate(116deg) brightness(84%) contrast(92%);
+}
+#footer-menu{
+    display: flex;
+    flex-direction: row;
+    color: var(--Dark-desaturated-cyan);
+    font-family: var(--font-family-1);
+    margin-top: 50px;
+    margin-left: 520px;
+    font-size: 1.2rem;
+}
+#About{
+    margin-right: 70px;
+}
+#Project{
+    margin-left: 70px;
+}
+#social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+#fb{
+    margin-right: 30px;
+}
+#insta{
+    margin-right: 30px;
+}
+#twitter{
+    margin-right: 30px;
+}
+@media (max-width:400px) {
+    main img{
+        width: 110%;
+    }
+    #logo{
+        width: 20px;
+        position: absolute;
+        top:15px;
+        left: 40px;
+    }
+    #menu{
+        display: none;
+    }
+    #hamburger{
+        position: absolute;
+        top: 25px;
+        left: 350px;
+    }
+    h1{
+        color: var(--White);
+        font-family: var(--font-family-2);
+        font-weight: var(--font-weight-black);
+        letter-spacing: 2px;
+        font-size: 20px;
+        width: 100px;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 140px;
+    }
+    #arrow{
+        width: 15px;
+        position: absolute;
+        top: 100px;
+        left: 210px;
+    }
+    #flex-1{
+        display: flex;
+        flex-direction: column;
+    position: absolute;
+    top: -39px;
+    left: -230px;
+    }
+    #first>h2{
+        text-align: center;
+        font-size: 30px;
+        width: 250px;
+        position: absolute;
+        top: 750px;
+        left: 310px;
+    }
+    #first>p{
+        width: 285px;
+        font-size: 16px;
+        line-height: 25px;
+        position: absolute;
+        top: 870px;
+        left: 290px;
+        text-align: center;
+    }
+    #transform{
+        position: absolute;
+        top: 285px;
+        left: 50px;
+        width: 450px;
+    }
+   #yellow{
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+   }
+   #flex-2{
+    display: flex;
+    flex-direction: column;
+margin-top: -4px;
+margin-left: -45px;
+}
+#stand{
+    position: absolute;
+    top: 1130px;
+left: -10px;
+    width: 450px;
+}
+#second>h2{
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+position: absolute;
+top: 1600px;
+left: 60px;
+}
+#second>p{
+    width: 290px;
+    text-align: center;
+    line-height: 25px;
+position: absolute;
+top: 1670px;
+left: 70px;
+}
+#red{
+    position: absolute;
+    top: 1830px;
+    left: 160px;
+}
+#flex-3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1950px;
+}
+#green>img{
+    width: 600px;
+    margin-left: -50px;
+}
+#green>h3{
+    font-size: 20px;
+    margin-top: -190px;
+    margin-left: 170px;
+}
+#green>p{
+    line-height: 23px;
+     margin-top: 30px;
+     margin-left: 70px;
+}
+#blue>img{
+    width: 600px;
+    margin-top: 42px;
+    margin-left: -60px;
+}
+#blue>h3{
+    font-size: 20px;
+    margin-top: -190px;
+    margin-left: 180px;
+}
+#blue>p{
+    line-height: 23px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+h5{
+
+    margin-top: 2600px;
+    color: var(--Dark-grayish-blue);
+    font-size:1rem ;
+    letter-spacing: 5px;
+    margin-left: 70px;
+}
+#profiles{
+    display: flex;
+    flex-direction: column;
+}
+#emily{
+    margin-top: 0px;
+    margin-left: -70px;
+}
+#thomas{
+    position: absolute;
+    top: 3600px;
+    left: 170px;
+}
+#thomas>p{
+    margin-top: 50px;
+    margin-left: -110px;
+}
+#thomas>h4{
+    position: absolute;
+    top: 190px;
+    left: -25px;
+}
+#thomas>h6{
+    position: absolute;
+    top: 290px;
+    left: -30px;
+}
+#jennie{
+    position: absolute;
+    top: 4000px;
+    left: 120px;
+}
+#jennie>p{
+    margin-top: 50px;
+    margin-left: -100px;
+}
+#jennie>h4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#jennie>h6{
+    margin-top: 10px;
+    margin-left: 27px;
+}
+#images{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,50%);
+    margin-top: 900px;
+}
+#cone{
+    margin-top: -4px;
+}
+#sugar{
+    margin-top: -4px;
+}
+footer{
+    height: 370px;
+    margin-top: -7px;
+}
+#footer-menu{
+    position: absolute;
+    left: -465px;
+    top: 5000px;
+    font-size: 1rem;
+}
+#LOGO{
+    position: absolute;
+    left: -470px;
+    width: 700px;
+}
+#social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    position: absolute;
+    top: 5070px;
+}
+}
